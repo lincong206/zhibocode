@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A4E293CBD5E0091B97C /* AppDelegate.swift */; };
-		3F624A51293CBD5E0091B97C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A50293CBD5E0091B97C /* SceneDelegate.swift */; };
-		3F624A53293CBD5E0091B97C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A52293CBD5E0091B97C /* ViewController.swift */; };
 		3F624A56293CBD5E0091B97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A54293CBD5E0091B97C /* Main.storyboard */; };
 		3F624A58293CBD600091B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A57293CBD600091B97C /* Assets.xcassets */; };
 		3F624A5B293CBD600091B97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A59293CBD600091B97C /* LaunchScreen.storyboard */; };
@@ -37,8 +35,6 @@
 /* Begin PBXFileReference section */
 		3F624A4B293CBD5E0091B97C /* zhiboTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhiboTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F624A4E293CBD5E0091B97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F624A50293CBD5E0091B97C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F624A52293CBD5E0091B97C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F624A55293CBD5E0091B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F624A57293CBD600091B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F624A5A293CBD600091B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,9 +97,6 @@
 			children = (
 				3F624A7E293CC56A0091B97C /* Classes */,
 				3F624A4E293CBD5E0091B97C /* AppDelegate.swift */,
-				3F624A50293CBD5E0091B97C /* SceneDelegate.swift */,
-				3F624A52293CBD5E0091B97C /* ViewController.swift */,
-				3F624A54293CBD5E0091B97C /* Main.storyboard */,
 				3F624A57293CBD600091B97C /* Assets.xcassets */,
 				3F624A59293CBD600091B97C /* LaunchScreen.storyboard */,
 				3F624A5C293CBD600091B97C /* Info.plist */,
@@ -180,6 +173,7 @@
 		3F624A84293CC56A0091B97C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3F624A54293CBD5E0091B97C /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -315,9 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F624A53293CBD5E0091B97C /* ViewController.swift in Sources */,
 				3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */,
-				3F624A51293CBD5E0091B97C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = zhiboTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = zhiboTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
