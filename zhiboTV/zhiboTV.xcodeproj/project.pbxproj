@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A4E293CBD5E0091B97C /* AppDelegate.swift */; };
+		3F624A51293CBD5E0091B97C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A50293CBD5E0091B97C /* SceneDelegate.swift */; };
+		3F624A53293CBD5E0091B97C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A52293CBD5E0091B97C /* ViewController.swift */; };
+		3F624A56293CBD5E0091B97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A54293CBD5E0091B97C /* Main.storyboard */; };
+		3F624A58293CBD600091B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A57293CBD600091B97C /* Assets.xcassets */; };
+		3F624A5B293CBD600091B97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A59293CBD600091B97C /* LaunchScreen.storyboard */; };
+		3F624A66293CBD600091B97C /* zhiboTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A65293CBD600091B97C /* zhiboTVTests.swift */; };
+		3F624A71293CBD600091B97C /* zhiboTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A70293CBD600091B97C /* zhiboTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F624A62293CBD600091B97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F624A43293CBD5E0091B97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F624A4A293CBD5E0091B97C;
+			remoteInfo = zhiboTV;
+		};
+		3F624A6D293CBD600091B97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F624A43293CBD5E0091B97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F624A4A293CBD5E0091B97C;
+			remoteInfo = zhiboTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F624A4B293CBD5E0091B97C /* zhiboTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhiboTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F624A4E293CBD5E0091B97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F624A50293CBD5E0091B97C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F624A52293CBD5E0091B97C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F624A55293CBD5E0091B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F624A57293CBD600091B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F624A5A293CBD600091B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F624A5C293CBD600091B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F624A61293CBD600091B97C /* zhiboTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F624A65293CBD600091B97C /* zhiboTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhiboTVTests.swift; sourceTree = "<group>"; };
+		3F624A67293CBD600091B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F624A6C293CBD600091B97C /* zhiboTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F624A70293CBD600091B97C /* zhiboTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhiboTVUITests.swift; sourceTree = "<group>"; };
+		3F624A72293CBD600091B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F624A48293CBD5E0091B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A5E293CBD600091B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A69293CBD600091B97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F624A42293CBD5E0091B97C = {
+			isa = PBXGroup;
+			children = (
+				3F624A4D293CBD5E0091B97C /* zhiboTV */,
+				3F624A64293CBD600091B97C /* zhiboTVTests */,
+				3F624A6F293CBD600091B97C /* zhiboTVUITests */,
+				3F624A4C293CBD5E0091B97C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F624A4C293CBD5E0091B97C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F624A4B293CBD5E0091B97C /* zhiboTV.app */,
+				3F624A61293CBD600091B97C /* zhiboTVTests.xctest */,
+				3F624A6C293CBD600091B97C /* zhiboTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F624A4D293CBD5E0091B97C /* zhiboTV */ = {
+			isa = PBXGroup;
+			children = (
+				3F624A4E293CBD5E0091B97C /* AppDelegate.swift */,
+				3F624A50293CBD5E0091B97C /* SceneDelegate.swift */,
+				3F624A52293CBD5E0091B97C /* ViewController.swift */,
+				3F624A54293CBD5E0091B97C /* Main.storyboard */,
+				3F624A57293CBD600091B97C /* Assets.xcassets */,
+				3F624A59293CBD600091B97C /* LaunchScreen.storyboard */,
+				3F624A5C293CBD600091B97C /* Info.plist */,
+			);
+			path = zhiboTV;
+			sourceTree = "<group>";
+		};
+		3F624A64293CBD600091B97C /* zhiboTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F624A65293CBD600091B97C /* zhiboTVTests.swift */,
+				3F624A67293CBD600091B97C /* Info.plist */,
+			);
+			path = zhiboTVTests;
+			sourceTree = "<group>";
+		};
+		3F624A6F293CBD600091B97C /* zhiboTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F624A70293CBD600091B97C /* zhiboTVUITests.swift */,
+				3F624A72293CBD600091B97C /* Info.plist */,
+			);
+			path = zhiboTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F624A4A293CBD5E0091B97C /* zhiboTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F624A75293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTV" */;
+			buildPhases = (
+				3F624A47293CBD5E0091B97C /* Sources */,
+				3F624A48293CBD5E0091B97C /* Frameworks */,
+				3F624A49293CBD5E0091B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhiboTV;
+			productName = zhiboTV;
+			productReference = 3F624A4B293CBD5E0091B97C /* zhiboTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F624A60293CBD600091B97C /* zhiboTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F624A78293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTVTests" */;
+			buildPhases = (
+				3F624A5D293CBD600091B97C /* Sources */,
+				3F624A5E293CBD600091B97C /* Frameworks */,
+				3F624A5F293CBD600091B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F624A63293CBD600091B97C /* PBXTargetDependency */,
+			);
+			name = zhiboTVTests;
+			productName = zhiboTVTests;
+			productReference = 3F624A61293CBD600091B97C /* zhiboTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F624A6B293CBD600091B97C /* zhiboTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F624A7B293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTVUITests" */;
+			buildPhases = (
+				3F624A68293CBD600091B97C /* Sources */,
+				3F624A69293CBD600091B97C /* Frameworks */,
+				3F624A6A293CBD600091B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F624A6E293CBD600091B97C /* PBXTargetDependency */,
+			);
+			name = zhiboTVUITests;
+			productName = zhiboTVUITests;
+			productReference = 3F624A6C293CBD600091B97C /* zhiboTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F624A43293CBD5E0091B97C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Lynn;
+				TargetAttributes = {
+					3F624A4A293CBD5E0091B97C = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					3F624A60293CBD600091B97C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3F624A4A293CBD5E0091B97C;
+					};
+					3F624A6B293CBD600091B97C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3F624A4A293CBD5E0091B97C;
+					};
+				};
+			};
+			buildConfigurationList = 3F624A46293CBD5E0091B97C /* Build configuration list for PBXProject "zhiboTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F624A42293CBD5E0091B97C;
+			productRefGroup = 3F624A4C293CBD5E0091B97C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F624A4A293CBD5E0091B97C /* zhiboTV */,
+				3F624A60293CBD600091B97C /* zhiboTVTests */,
+				3F624A6B293CBD600091B97C /* zhiboTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F624A49293CBD5E0091B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F624A5B293CBD600091B97C /* LaunchScreen.storyboard in Resources */,
+				3F624A58293CBD600091B97C /* Assets.xcassets in Resources */,
+				3F624A56293CBD5E0091B97C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A5F293CBD600091B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A6A293CBD600091B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F624A47293CBD5E0091B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F624A53293CBD5E0091B97C /* ViewController.swift in Sources */,
+				3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */,
+				3F624A51293CBD5E0091B97C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A5D293CBD600091B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F624A66293CBD600091B97C /* zhiboTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F624A68293CBD600091B97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F624A71293CBD600091B97C /* zhiboTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F624A63293CBD600091B97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F624A4A293CBD5E0091B97C /* zhiboTV */;
+			targetProxy = 3F624A62293CBD600091B97C /* PBXContainerItemProxy */;
+		};
+		3F624A6E293CBD600091B97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F624A4A293CBD5E0091B97C /* zhiboTV */;
+			targetProxy = 3F624A6D293CBD600091B97C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F624A54293CBD5E0091B97C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F624A55293CBD5E0091B97C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F624A59293CBD600091B97C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F624A5A293CBD600091B97C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F624A73293CBD600091B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F624A74293CBD600091B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F624A76293CBD600091B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F624A77293CBD600091B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F624A79293CBD600091B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhiboTV.app/zhiboTV";
+			};
+			name = Debug;
+		};
+		3F624A7A293CBD600091B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhiboTV.app/zhiboTV";
+			};
+			name = Release;
+		};
+		3F624A7C293CBD600091B97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zhiboTV;
+			};
+			name = Debug;
+		};
+		3F624A7D293CBD600091B97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhiboTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yours.zhiboTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zhiboTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F624A46293CBD5E0091B97C /* Build configuration list for PBXProject "zhiboTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F624A73293CBD600091B97C /* Debug */,
+				3F624A74293CBD600091B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F624A75293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F624A76293CBD600091B97C /* Debug */,
+				3F624A77293CBD600091B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F624A78293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F624A79293CBD600091B97C /* Debug */,
+				3F624A7A293CBD600091B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F624A7B293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F624A7C293CBD600091B97C /* Debug */,
+				3F624A7D293CBD600091B97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F624A43293CBD5E0091B97C /* Project object */;
+}
