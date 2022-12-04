@@ -99,6 +99,7 @@
 		3F624A4D293CBD5E0091B97C /* zhiboTV */ = {
 			isa = PBXGroup;
 			children = (
+				3F624A7E293CC56A0091B97C /* Classes */,
 				3F624A4E293CBD5E0091B97C /* AppDelegate.swift */,
 				3F624A50293CBD5E0091B97C /* SceneDelegate.swift */,
 				3F624A52293CBD5E0091B97C /* ViewController.swift */,
@@ -126,6 +127,61 @@
 				3F624A72293CBD600091B97C /* Info.plist */,
 			);
 			path = zhiboTVUITests;
+			sourceTree = "<group>";
+		};
+		3F624A7E293CC56A0091B97C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F624A7F293CC56A0091B97C /* Home */,
+				3F624A80293CC56A0091B97C /* Tools */,
+				3F624A81293CC56A0091B97C /* Follow */,
+				3F624A82293CC56A0091B97C /* Profile */,
+				3F624A83293CC56A0091B97C /* Live */,
+				3F624A84293CC56A0091B97C /* Main */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		3F624A7F293CC56A0091B97C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3F624A80293CC56A0091B97C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3F624A81293CC56A0091B97C /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3F624A82293CC56A0091B97C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3F624A83293CC56A0091B97C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3F624A84293CC56A0091B97C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
