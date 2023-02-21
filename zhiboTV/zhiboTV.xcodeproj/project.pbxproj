@@ -3,20 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1C27CD295488F300001049 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C27CC295488F300001049 /* RecommendViewController.swift */; };
+		3F1C27D2295493E400001049 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C27D1295493E400001049 /* CollectionReusableView.swift */; };
 		3F340303293DCFB000BEB600 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F340302293DCFB000BEB600 /* TabbarViewController.swift */; };
 		3F340305293DD5CB00BEB600 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F340304293DD5CB00BEB600 /* HomeViewController.swift */; };
 		3F340307293DDEB500BEB600 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F340306293DDEB500BEB600 /* FollowViewController.swift */; };
 		3F340309293DDF3B00BEB600 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F340308293DDF3B00BEB600 /* ProfileViewController.swift */; };
 		3F34030B293DDF4A00BEB600 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34030A293DDF4A00BEB600 /* LiveViewController.swift */; };
+		3F34030D293E20A300BEB600 /* FMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34030C293E20A300BEB600 /* FMDB.swift */; };
+		3F34030F293F71D300BEB600 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34030E293F71D300BEB600 /* PageTitleView.swift */; };
+		3F340311293F772F00BEB600 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F340310293F772F00BEB600 /* Common.swift */; };
+		3F3403132940A48E00BEB600 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3403122940A48E00BEB600 /* PageContentView.swift */; };
+		3F3403152940A95F00BEB600 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3403142940A95F00BEB600 /* UIColor+Ext.swift */; };
+		3F34031E2941D84100BEB600 /* ProtocolInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34031D2941D84100BEB600 /* ProtocolInterface.swift */; };
 		3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A4E293CBD5E0091B97C /* AppDelegate.swift */; };
 		3F624A58293CBD600091B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A57293CBD600091B97C /* Assets.xcassets */; };
 		3F624A5B293CBD600091B97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F624A59293CBD600091B97C /* LaunchScreen.storyboard */; };
 		3F624A66293CBD600091B97C /* zhiboTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A65293CBD600091B97C /* zhiboTVTests.swift */; };
 		3F624A71293CBD600091B97C /* zhiboTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F624A70293CBD600091B97C /* zhiboTVUITests.swift */; };
+		3FBD9B5029A0A4840095FF3A /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B4F29A0A4840095FF3A /* CollectionNormalCell.swift */; };
+		3FBD9B5329A316E00095FF3A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5229A316E00095FF3A /* RecommendViewModel.swift */; };
+		3FBD9B5529A31EC50095FF3A /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5429A31EC50095FF3A /* NetWorkTools.swift */; };
+		3FBD9B5729A355680095FF3A /* NSDate+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5629A355680095FF3A /* NSDate+Ext.swift */; };
+		3FBD9B5929A3593E0095FF3A /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5829A3593E0095FF3A /* AnchorGroup.swift */; };
+		3FBD9B5B29A35D140095FF3A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5A29A35D140095FF3A /* AnchorModel.swift */; };
+		3FBD9B5D29A37C080095FF3A /* NornalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5C29A37C080095FF3A /* NornalCollectionViewCell.swift */; };
+		3FBD9B5F29A37C140095FF3A /* PrettyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B5E29A37C140095FF3A /* PrettyCollectionViewCell.swift */; };
+		3FBD9B6129A3C4CB0095FF3A /* KFImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9B6029A3C4CB0095FF3A /* KFImageTools.swift */; };
+		6C0CBB2E0583F02A8B1B02B1 /* Pods_zhiboTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2939E5218A49B59286125007 /* Pods_zhiboTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2939E5218A49B59286125007 /* Pods_zhiboTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhiboTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C27CC295488F300001049 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		3F1C27D1295493E400001049 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 		3F340302293DCFB000BEB600 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		3F340304293DD5CB00BEB600 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3F340306293DDEB500BEB600 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		3F340308293DDF3B00BEB600 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3F34030A293DDF4A00BEB600 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		3F34030C293E20A300BEB600 /* FMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDB.swift; sourceTree = "<group>"; };
+		3F34030E293F71D300BEB600 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		3F340310293F772F00BEB600 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3F3403122940A48E00BEB600 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		3F3403142940A95F00BEB600 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		3F34031D2941D84100BEB600 /* ProtocolInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolInterface.swift; sourceTree = "<group>"; };
 		3F624A4B293CBD5E0091B97C /* zhiboTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhiboTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F624A4E293CBD5E0091B97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F624A57293CBD600091B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +80,17 @@
 		3F624A6C293CBD600091B97C /* zhiboTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F624A70293CBD600091B97C /* zhiboTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhiboTVUITests.swift; sourceTree = "<group>"; };
 		3F624A72293CBD600091B97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBD9B4F29A0A4840095FF3A /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		3FBD9B5229A316E00095FF3A /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		3FBD9B5429A31EC50095FF3A /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		3FBD9B5629A355680095FF3A /* NSDate+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Ext.swift"; sourceTree = "<group>"; };
+		3FBD9B5829A3593E0095FF3A /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		3FBD9B5A29A35D140095FF3A /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		3FBD9B5C29A37C080095FF3A /* NornalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NornalCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FBD9B5E29A37C140095FF3A /* PrettyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FBD9B6029A3C4CB0095FF3A /* KFImageTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFImageTools.swift; sourceTree = "<group>"; };
+		5A34577F78AEEA0AE512B811 /* Pods-zhiboTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhiboTV.debug.xcconfig"; path = "Target Support Files/Pods-zhiboTV/Pods-zhiboTV.debug.xcconfig"; sourceTree = "<group>"; };
+		659076BC0EA82697FFA7FD89 /* Pods-zhiboTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhiboTV.release.xcconfig"; path = "Target Support Files/Pods-zhiboTV/Pods-zhiboTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0CBB2E0583F02A8B1B02B1 /* Pods_zhiboTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +119,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D10556020835618746BA87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A34577F78AEEA0AE512B811 /* Pods-zhiboTV.debug.xcconfig */,
+				659076BC0EA82697FFA7FD89 /* Pods-zhiboTV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F1C27CE295493A900001049 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C27D1295493E400001049 /* CollectionReusableView.swift */,
+				3FBD9B5C29A37C080095FF3A /* NornalCollectionViewCell.swift */,
+				3FBD9B5E29A37C140095FF3A /* PrettyCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1C27CF295493A900001049 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FBD9B5829A3593E0095FF3A /* AnchorGroup.swift */,
+				3FBD9B5A29A35D140095FF3A /* AnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1C27D0295493A900001049 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F340304293DD5CB00BEB600 /* HomeViewController.swift */,
+				3F1C27CC295488F300001049 /* RecommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3F340301293DCF8E00BEB600 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
 				3F340302293DCFB000BEB600 /* TabbarViewController.swift */,
 			);
 			path = tabbar;
+			sourceTree = "<group>";
+		};
+		3F34031C2941D82300BEB600 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3F34031D2941D84100BEB600 /* ProtocolInterface.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		3F624A42293CBD5E0091B97C = {
@@ -95,6 +179,8 @@
 				3F624A64293CBD600091B97C /* zhiboTVTests */,
 				3F624A6F293CBD600091B97C /* zhiboTVUITests */,
 				3F624A4C293CBD5E0091B97C /* Products */,
+				02D10556020835618746BA87 /* Pods */,
+				BBF08D2DB5036290065B9325 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +227,7 @@
 		3F624A7E293CC56A0091B97C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F34031C2941D82300BEB600 /* Protocol */,
 				3F340301293DCF8E00BEB600 /* tabbar */,
 				3F624A7F293CC56A0091B97C /* Home */,
 				3F624A80293CC56A0091B97C /* Tools */,
@@ -155,7 +242,10 @@
 		3F624A7F293CC56A0091B97C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3F340304293DD5CB00BEB600 /* HomeViewController.swift */,
+				3FBD9B5129A316C70095FF3A /* ViewModel */,
+				3F1C27D0295493A900001049 /* Controller */,
+				3F1C27CF295493A900001049 /* Model */,
+				3F1C27CE295493A900001049 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -163,6 +253,9 @@
 		3F624A80293CC56A0091B97C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				3F34030C293E20A300BEB600 /* FMDB.swift */,
+				3FBD9B5429A31EC50095FF3A /* NetWorkTools.swift */,
+				3FBD9B6029A3C4CB0095FF3A /* KFImageTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -194,8 +287,30 @@
 		3F624A84293CC56A0091B97C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3F34030E293F71D300BEB600 /* PageTitleView.swift */,
+				3F340310293F772F00BEB600 /* Common.swift */,
+				3F3403122940A48E00BEB600 /* PageContentView.swift */,
+				3F3403142940A95F00BEB600 /* UIColor+Ext.swift */,
+				3FBD9B4F29A0A4840095FF3A /* CollectionNormalCell.swift */,
+				3FBD9B5629A355680095FF3A /* NSDate+Ext.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3FBD9B5129A316C70095FF3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FBD9B5229A316E00095FF3A /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBF08D2DB5036290065B9325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2939E5218A49B59286125007 /* Pods_zhiboTV.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F624A75293CBD600091B97C /* Build configuration list for PBXNativeTarget "zhiboTV" */;
 			buildPhases = (
+				96D6878C1E3F8F7C2F92DFCC /* [CP] Check Pods Manifest.lock */,
 				3F624A47293CBD5E0091B97C /* Sources */,
 				3F624A48293CBD5E0091B97C /* Frameworks */,
 				3F624A49293CBD5E0091B97C /* Resources */,
+				F9777B69007BC814700A6AB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,17 +440,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96D6878C1E3F8F7C2F92DFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhiboTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9777B69007BC814700A6AB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhiboTV/Pods-zhiboTV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zhiboTV/Pods-zhiboTV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zhiboTV/Pods-zhiboTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F624A47293CBD5E0091B97C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F34030F293F71D300BEB600 /* PageTitleView.swift in Sources */,
 				3F624A4F293CBD5E0091B97C /* AppDelegate.swift in Sources */,
 				3F340303293DCFB000BEB600 /* TabbarViewController.swift in Sources */,
+				3FBD9B5529A31EC50095FF3A /* NetWorkTools.swift in Sources */,
+				3FBD9B6129A3C4CB0095FF3A /* KFImageTools.swift in Sources */,
+				3F3403132940A48E00BEB600 /* PageContentView.swift in Sources */,
+				3FBD9B5029A0A4840095FF3A /* CollectionNormalCell.swift in Sources */,
+				3FBD9B5729A355680095FF3A /* NSDate+Ext.swift in Sources */,
+				3F3403152940A95F00BEB600 /* UIColor+Ext.swift in Sources */,
 				3F340309293DDF3B00BEB600 /* ProfileViewController.swift in Sources */,
+				3FBD9B5D29A37C080095FF3A /* NornalCollectionViewCell.swift in Sources */,
+				3F34031E2941D84100BEB600 /* ProtocolInterface.swift in Sources */,
+				3F1C27D2295493E400001049 /* CollectionReusableView.swift in Sources */,
+				3FBD9B5329A316E00095FF3A /* RecommendViewModel.swift in Sources */,
+				3F340311293F772F00BEB600 /* Common.swift in Sources */,
 				3F340305293DD5CB00BEB600 /* HomeViewController.swift in Sources */,
 				3F34030B293DDF4A00BEB600 /* LiveViewController.swift in Sources */,
+				3F1C27CD295488F300001049 /* RecommendViewController.swift in Sources */,
+				3FBD9B5B29A35D140095FF3A /* AnchorModel.swift in Sources */,
+				3F34030D293E20A300BEB600 /* FMDB.swift in Sources */,
 				3F340307293DDEB500BEB600 /* FollowViewController.swift in Sources */,
+				3FBD9B5F29A37C140095FF3A /* PrettyCollectionViewCell.swift in Sources */,
+				3FBD9B5929A3593E0095FF3A /* AnchorGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +672,7 @@
 		};
 		3F624A76293CBD600091B97C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A34577F78AEEA0AE512B811 /* Pods-zhiboTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +691,7 @@
 		};
 		3F624A77293CBD600091B97C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659076BC0EA82697FFA7FD89 /* Pods-zhiboTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
